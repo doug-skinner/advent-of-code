@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 const main = async () => {
-    const input = await fs.readFileSync('src/2022/one/input.txt', 'utf-8');
+    const input = await fs.readFileSync('src/2022/1/input.txt', 'utf-8');
     const rows = input.split('\n');
     let currentElfCalories = 0;
     const elfCalories = [];
